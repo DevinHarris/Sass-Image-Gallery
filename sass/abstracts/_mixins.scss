@@ -1,0 +1,14 @@
+@mixin flexBox ($flex, $direction, $justVar) {
+	display: $flex;
+	-webkit-flex-direction: $direction;
+	-moz-flex-direction: $direction;
+	-ms-flex-direction: $direction;
+	-o-flex-direction: $direction;
+	flex-direction: $direction;
+
+	-webkit-justify-content: $justVar;
+	-moz-justify-content: $justVar;
+	-ms-justify-content: $justVar;
+	-o-justify-content: $justVar;
+	justify-content: $justVar;
+}

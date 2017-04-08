@@ -1,0 +1,18 @@
+header {
+	width: 100vw;
+	height: 500px;
+	color: $baseColor;
+	position: relative;
+	padding: 10px;
+	box-sizing: border-box;
+	background: url(img/bg.png) center bottom no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	@include flexBox(flex, row, center);
+	align-items: baseline;
+	align-content: center;
+
+	.head-title {
+		font-size: 3em;
+	}
+}
